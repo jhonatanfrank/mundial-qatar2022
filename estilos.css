@@ -1,0 +1,175 @@
+* {
+    background-color: #000;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+input {
+    color: aliceblue;
+}
+
+#qatar,
+#ecuador,
+#senegal,
+#paisesBajos,
+#inglaterra,
+#iran,
+#estadosUnidos,
+#gales,
+#argentina,
+#arabiaSaudita,
+#mexico,
+#polonia,
+#francia,
+#australia,
+#dinamarca,
+#tunez,
+#espania,
+#costaRica,
+#alemania,
+#japon,
+#belgica,
+#canada,
+#marruecos,
+#croacia,
+#brasil,
+#serbia,
+#suiza,
+#camerun,
+#portugal,
+#ghana,
+#uruguay,
+#coreaDelSur,
+#paisGanadorGrupoA1,
+#paisGanadorGrupoA2,
+#paisGanadorGrupoB1,
+#paisGanadorGrupoB2,
+#paisGanadorGrupoC1,
+#paisGanadorGrupoC2,
+#paisGanadorGrupoD1,
+#paisGanadorGrupoD2,
+#paisGanadorGrupoE1,
+#paisGanadorGrupoE2,
+#paisGanadorGrupoF1,
+#paisGanadorGrupoF2,
+#paisGanadorGrupoG1,
+#paisGanadorGrupoG2,
+#paisGanadorGrupoH1,
+#paisGanadorGrupoH2,
+#octavos1B,
+#octavos2A,
+#octavos1D,
+#octavos2C,
+#octavos1F,
+#octavos2E,
+#octavos1H,
+#octavos2G,
+#octavos1A,
+#octavos2B,
+#octavos1C,
+#octavos2D,
+#octavos1E,
+#octavos2F,
+#octavos1G,
+#octavos2H,
+#cganadorBA,
+#cganadorDC,
+#cganadorFE,
+#cganadorHG,
+#cganadorAB,
+#cganadorCD,
+#cganadorEF,
+#cganadorGH,
+#semisBADC,
+#semisFEHG,
+#semisABCD,
+#semisEFGH,
+#finalista1,
+#finalista2,
+#tercerPuesto1,
+#tercerPuesto2,
+#ganadorBA,
+#ganadorDC,
+#ganadorFE,
+#ganadorHG,
+#ganadorAB,
+#ganadorCD,
+#ganadorEF,
+#ganadorGH,
+#ganadorBA_DC,
+#ganadorFE_HG,
+#ganadorAB_CD,
+#ganadorEF_GH,
+#ganadorSemis1,
+#ganadorSemis2,
+#campeon,
+#tercerPuesto1,
+#tercerPuesto2,
+#ganadorTercerPuesto {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(50, 74, 95);
+}
+
+.subtitulo {
+    text-align: center;
+    background-color: #111b21;
+    color: aliceblue;
+}
+
+
+.container-fase-grupos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container-grupo {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #111b21;
+    box-shadow: -1rem 0 6rem #000;
+}
+
+.titulo {
+    background-color: #111b21;
+    padding: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+.titulo-container {
+    background-color: #111b21;
+
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100px;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+h5{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(114, 63, 243);
+}

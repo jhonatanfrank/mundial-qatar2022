@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Mundial Qatar 2022</title>
+  </head>
+  <body>
+    <h1 class="titulo">MUNDIAL QATAR 2022</h1>
+    <h5>Realizado por: Frank Jhonatan</h5>
+    <h5>Lima - Perú</h5>
+    <h1 class="titulo">GRUPOS</h1>
+
+    <div class="container-fase-grupos">
+      <div class="container-grupo">
+        <h1 class="titulo-container">GRUPO A</h1>
+        <input type="text" id="qatar" value="Qatar" readonly onclick="qatar()"><br>
+        <input type="text" id="ecuador" value="Ecuador" readonly
+          onclick="ecuador()"><br>
+        <input type="text" id="senegal" value="Senegal" readonly
+          onclick="senegal()"><br>
+        <input type="text" id="paisesBajos" value="Paises Bajos" readonly
+          onclick="paisesBajos()"><br>
+        <br>
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoA1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoA2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoA"
+            onclick="limpiarPaisesGanadoresGrupoA()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO B</h1>
+        <input type="text" id="inglaterra" value="Inglaterra" readonly
+          onclick="inglaterra()"><br>
+        <input type="text" id="iran" value="Iran" readonly
+          onclick="iran()"><br>
+        <input type="text" id="estadosUnidos" value="Estados Unidos" readonly
+          onclick="estadosUnidos()"><br>
+        <input type="text" id="gales" value="Gales" readonly
+          onclick="gales()"><br>
+        <br>
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoB1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoB2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoB"
+            onclick="limpiarPaisesGanadoresGrupoB()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO C</h1>
+        <input type="text" id="argentina" value="Argentina" readonly
+          onclick="argentina()"><br>
+        <input type="text" id="arabiaSaudita" value="Arabia Saudita" readonly
+          onclick="arabiaSaudita()"><br>
+        <input type="text" id="mexico" value="Mexico" readonly
+          onclick="mexico()"><br>
+        <input type="text" id="polonia" value="Polonia" readonly
+          onclick="polonia()"><br>
+        <br>
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoC1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoC2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoC"
+            onclick="limpiarPaisesGanadoresGrupoC()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO D</h1>
+        <input type="text" id="francia" value="Francia" readonly
+          onclick="francia()"><br>
+        <input type="text" id="australia" value="Australia" readonly
+          onclick="australia()"><br>
+        <input type="text" id="dinamarca" value="Dinamarca" readonly
+          onclick="dinamarca()"><br>
+        <input type="text" id="tunez" value="Tunez" readonly
+          onclick="tunez()"><br>
+        <br>
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoD1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoD2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoD"
+            onclick="limpiarPaisesGanadoresGrupoD()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO E</h1>
+        <input type="text" id="espania" value="España" readonly
+          onclick="espania()"><br>
+        <input type="text" id="costaRica" value="Costa Rica" readonly
+          onclick="costaRica()"><br>
+        <input type="text" id="alemania" value="Alemania" readonly
+          onclick="alemania()"><br>
+        <input type="text" id="japon" value="Japon" readonly
+          onclick="japon()"><br>
+        <br>
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoE1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoE2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoE"
+            onclick="limpiarPaisesGanadoresGrupoE()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO F</h1>
+        <input type="text" id="belgica" value="Belgica" readonly
+          onclick="belgica()"><br>
+        <input type="text" id="canada" value="Canada" readonly
+          onclick="canada()"><br>
+        <input type="text" id="marruecos" value="Marruecos" readonly
+          onclick="marruecos()"><br>
+        <input type="text" id="croacia" value="Croacia" readonly
+          onclick="croacia()"><br>
+        <br>
+
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoF1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoF2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoF"
+            onclick="limpiarPaisesGanadoresGrupoF()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO G</h1>
+        <input type="text" id="brasil" value="Brasil" readonly
+          onclick="brasil()"><br>
+        <input type="text" id="serbia" value="Serbia" readonly
+          onclick="serbia()"><br>
+        <input type="text" id="suiza" value="Suiza" readonly
+          onclick="suiza()"><br>
+        <input type="text" id="camerun" value="Camerun" readonly
+          onclick="camerun()"><br>
+        <br>
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoG1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoG2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoG"
+            onclick="limpiarPaisesGanadoresGrupoG()">
+        </div>
+      </div>
+
+      <div class="container-grupo"> <h1 class="titulo-container">GRUPO H</h1>
+        <input type="text" id="portugal" value="Portugal" readonly
+          onclick="portugal()"><br>
+        <input type="text" id="ghana" value="Ghana" readonly
+          onclick="ghana()"><br>
+        <input type="text" id="uruguay" value="Uruguay" readonly
+          onclick="uruguay()"><br>
+        <input type="text" id="coreaDelSur" value="Corea Del Sur" readonly
+          onclick="coreaDelSur()"><br>
+        <br>
+
+        <div class="subtitulo">
+          <label class="titulo-container">Paises Ganadores</label>
+        </div>
+        <input id="paisGanadorGrupoH1" placeholder="Pais Ganador" readonly><br>
+        <input id="paisGanadorGrupoH2" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar"
+            id="limpiarPaisesGanadoresGrupoH"
+            onclick="limpiarPaisesGanadoresGrupoH()">
+        </div>
+      </div>
+    </div>
+    <h1 class="titulo" class="titulo-container">OCTAVOS</h1>
+    <div class="container-fase-grupos">
+      <div class="container-grupo">
+        <input type="text" id="octavos1B" placeholder="1° B"
+          onclick="ganador1B()" readonly><br>
+        <input type="text" id="octavos2A" placeholder="2° A"
+          onclick="ganador2A()"><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorBA" placeholder="Pais Ganador" readonly><br>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorBA()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1D" placeholder="1° D"
+          onclick="ganador1D()" readonly><br>
+        <input type="text" id="octavos2C" placeholder="2° C"
+          onclick="ganador2C()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorDC" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorDC()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1F" placeholder="1° F"
+          onclick="ganador1F()" readonly><br>
+        <input type="text" id="octavos2E" placeholder="2° E"
+          onclick="ganador2E()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorFE" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorFE()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1H" placeholder="1° H"
+          onclick="ganador1H()" readonly><br>
+        <input type="text" id="octavos2G" placeholder="2° G"
+          onclick="ganador2G()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorHG" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorHG()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1A" placeholder="1° A"
+          onclick="ganador1A()" readonly><br>
+        <input type="text" id="octavos2B" placeholder="2° B"
+          onclick="ganador2B()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorAB" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorAB()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1C" placeholder="1° C"
+          onclick="ganador1C()" readonly><br>
+        <input type="text" id="octavos2D" placeholder="2° D"
+          onclick="ganador2D()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorCD" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorCD()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1E" placeholder="1° E"
+          onclick="ganador1E()" readonly><br>
+        <input type="text" id="octavos2F" placeholder="2° F"
+          onclick="ganador2F()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorEF" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorEF()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+
+      <div class="container-grupo">
+        <input type="text" id="octavos1G" placeholder="1° G"
+          onclick="ganador1G()" readonly><br>
+        <input type="text" id="octavos2H" placeholder="2° H"
+          onclick="ganador2H()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorGH" placeholder="Pais Ganador" readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorGH()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+    </div>
+    <h1 class="titulo">CUARTOS</h1>
+    <div class="container-fase-grupos">
+      <div class="container-grupo">
+        <input id="cganadorBA" type="text" placeholder="Ganador BA"
+          onclick="ganadorBA()"><br>
+        <input id="cganadorDC" type="text" placeholder="Ganador DC"
+          onclick="ganadorDC()"><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorBA_DC" placeholder="Pais Ganador"
+          readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarGanadorBA_DC()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+      <div class="container-grupo">
+        <input id="cganadorFE" type="text" placeholder="Ganador FE"
+          onclick="ganadorFE()"><br>
+        <input id="cganadorHG" type="text" placeholder="Ganador HG"
+          onclick="ganadorHG()"><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorFE_HG" placeholder="Pais Ganador"
+          readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarganadorFE_HG()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+      <div class="container-grupo">
+        <input id="cganadorAB" type="text" placeholder="Ganador AB"
+          onclick="ganadorAB()"><br>
+        <input id="cganadorCD" type="text" placeholder="Ganador CD"
+          onclick="ganadorCD()"><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorAB_CD" placeholder="Pais Ganador"
+          readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarganadorAB_CD()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+      <div class="container-grupo">
+        <input id="cganadorEF" type="text" placeholder="Ganador EF"
+          onclick="ganadorEF()"><br>
+        <input id="cganadorGH" type="text" placeholder="Ganador GH"
+          onclick="ganadorGH()"><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" id="ganadorEF_GH" placeholder="Pais Ganador"
+          readonly>
+        <div class="container-button">
+          <input type="button" onclick="limpiarganadorEF_GH()"
+            value="Limpiar / Habilitar">
+        </div>
+      </div>
+    </div>
+    <h1 class="titulo">SEMIFINAL</h1>
+    <div class="container-fase-grupos">
+      <div class="container-grupo">
+        <input type="text" id="semisBADC" placeholder="Ganador del BADC"
+          onclick="semisBADC()" readonly><br>
+        <input type="text" id="semisFEHG" placeholder="Ganador del FEHG"
+          onclick="semisFEHG()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" placeholder="Finalista 1" id="ganadorSemis1" readonly>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar">
+        </div>
+      </div>
+      <div class="container-grupo">
+        <input type="text" id="semisABCD" placeholder="Ganador del ABCD"
+          onclick="semisABCD()" readonly><br>
+        <input type="text" id="semisEFGH" placeholder="Ganador del EFGH"
+          onclick="semisEFGH()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Ganador</label>
+        </div>
+        <input type="text" placeholder="Finalista 2" id="ganadorSemis2" readonly>
+        <div class="container-button">
+          <input type="button" value="Limpiar / Habilitar">
+        </div>
+      </div>
+    </div>
+    <h1 class="titulo">FINAL</h1>
+    <div class="container-fase-grupos">
+      <div class="container-grupo">
+        <input type="text" id="finalista1" placeholder="Finalista 1"
+          onclick="finalista1()" readonly><br>
+        <input type="text" id="finalista2" placeholder="Finalista"
+          onclick="finalista2()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Pais Campeon</label>
+        </div>
+        <input type="text" placeholder="Campeon" id="campeon" readonly><br>
+      </div>
+    </div>
+    <h1 class="titulo">TERCER PUESTO</h1>
+    <div class="container-fase-grupos">
+      <div class="container-grupo">
+        <input id="tercerPuesto1" placeholder="Tercer Puesto 1"
+          onclick="tercerPuesto1()" readonly><br>
+        <input id="tercerPuesto2" placeholder="Tercer Puesto 2"
+          onclick="tercerPuesto2()" readonly><br>
+        <div class="subtitulo">
+          <label class="titulo-container">Tercer Puesto</label>
+        </div>
+        <input placeholder="Tercer Puesto" id="ganadorTercerPuesto" readonly><br>
+      </div>
+    </div>
+    <br>
+    <h5>Realizado por: Frank Jhonatan</h5>
+    <h5>Lima - Perú</h5>
+  </body>
+  <script src="funciones.js"></script>
+
+</html>
